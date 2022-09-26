@@ -15,7 +15,7 @@ li, .msg, p {
   margin-top: 10px;
 }
 
-form, ul, .board{
+form, .board{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,7 +26,7 @@ form, ul, .board{
 table {
   border: 3px solid white;
   border-radius: 20px;
-  width: 420px;
+  width: 400px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -34,14 +34,11 @@ table {
   color: rgb(55, 1, 1);
 }
 
-tr, td {
-  padding: 14px;
-}
-
 td  {
   border: 2px solid white;
   border-radius: 20px;
   box-shadow: 1px 1px grey;
+  padding-left: 20px;
 }
 
 td:hover  {
@@ -69,6 +66,9 @@ li  {
   margin-right: 20px;
 }
 
-.board  {
-  padding-left: 8px;
+ul  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
 }
