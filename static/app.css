@@ -1,0 +1,74 @@
+body  {
+  background-color: aquamarine;
+  font-size: 1.5rem;
+}
+
+li, .msg, p {
+  font-size: 1rem;
+  list-style: none;
+}
+
+.logo, a, p {
+  display: block;
+  text-align: center;
+  justify-self: center;
+  margin-top: 10px;
+}
+
+form, ul, .board{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  letter-spacing: 12px;
+}
+
+table {
+  border: 3px solid white;
+  border-radius: 20px;
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding: 10px, 10px;
+  color: rgb(55, 1, 1);
+}
+
+tr, td {
+  padding: 14px;
+}
+
+td  {
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow: 1px 1px grey;
+}
+
+td:hover  {
+  background-color: bisque;
+}
+
+label {
+  margin-right: 20px;
+}
+
+input {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.score  {
+  margin: auto;
+}
+
+.err {
+  color: crimson;
+}
+
+li  {
+  margin-right: 20px;
+}
+
+.board  {
+  padding-left: 8px;
+}
